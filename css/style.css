@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0 ;
+    margin: 0;
+}
+.player{
+    margin: 5% auto;
+    max-width: 600px;
+}
+#video{
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+#progress-bar{
+    width: 100%;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btns button{
+    margin-left: 15px;
+}
+#video-volume{
+    position: absolute;
+    display: none;
+    width: 6%;
+    height: 3px;
+    margin-top: 12px;
+}
+.volume:hover #video-volume{
+        display: inline-block;
+}
+
+.right-btn{
+    display: flex;
+}
+.left-btn{
+    display: flex;
+}
